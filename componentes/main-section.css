@@ -1,0 +1,46 @@
+.main-section{
+    display: flex;
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    
+    gap: 35px; /* Espaço entre as caixas */
+    margin-top: 50px;
+}
+.box{
+    background: linear-gradient(to right, #8338EC, #9C2EF5);
+    border-radius: 15px;
+    width: 550px;
+    height: 380px;
+    padding: 40px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    font-weight: 100;
+    font-style: italic;
+}
+.box:hover{
+    box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
+    transition-duration: 0.3s;
+    transform: scale(1.02);
+}
+.buttom-section{
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+   
+}
+.buttom-section:hover{
+    border-color:  #eeececc5;
+    color: #eeececc5;
+    box-shadow: #eeececc5 0 0 4px ,#eeececc5 0 0 4px ;
+    transform: scale(1.05); /* Aumenta o tamanho em 5% */
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+.wrapper{
+    
+    display: flex;
+    justify-content: space-evenly; /* Espaço igual entre os links */
+    margin-top: 110px;
+}

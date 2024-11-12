@@ -1,0 +1,30 @@
+.pai{
+    text-align: center; /* Centraliza o conteúdo inline-block */
+}
+.centro{
+    
+    display: inline-block;
+    margin-top: 100px;
+}
+.centro p{
+    font-size: 1.2em;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-weight: 200
+}
+
+.centro h1{
+    color: white;
+    font-size: 60px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200; /* Peso da fonte */
+    font-style: normal; 
+
+}
+.cursiva{
+    background: linear-gradient(90deg, #8338EC, #B923FF); -webkit-background-clip: text; color: transparent;
+    font-size: 90px;
+    font-family: "Playfair Display", serif ;
+    font-weight: 400; /* Peso da fonte */
+    font-style: italic; /* Estilo itálico */
+}

@@ -1,0 +1,10 @@
+.main-action{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    
+}
+.main-action:hover{
+    border-bottom: 1px solid#592697;
+    transition-duration: 0.3s;
+}
