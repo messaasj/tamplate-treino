@@ -7,8 +7,10 @@
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     margin-top: 50px;
     margin-bottom: 100px;
+    
    
 }
+
 .caixa-elementos{
    
     display: flex;
@@ -35,6 +37,7 @@ font-weight: 700 !important;
 -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
 padding: 10px;
 border-radius: 15px;
+color: white;
 }
 .main-buttom.-trans{
     text-align: center;

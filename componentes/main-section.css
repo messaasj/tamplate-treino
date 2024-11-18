@@ -1,7 +1,7 @@
 .main-section{
     display: flex;
     justify-content: center; /* Centraliza as divs horizontalmente */
-    
+    color: white;
     gap: 35px; /* Espaço entre as caixas */
     margin-top: 50px;
 }
@@ -15,11 +15,15 @@
     letter-spacing: 0.03em;
     font-weight: 100;
     font-style: italic;
+    transition-duration: 0.3s;
+    
 }
+
+
 .box:hover{
     box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
-    transition-duration: 0.3s;
     transform: scale(1.02);
+    
 }
 .buttom-section{
     text-decoration: none;

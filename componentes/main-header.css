@@ -1,16 +1,19 @@
 .main-header{
    height: 600px;
-   width: 1330px;
+   max-width: clamp(200px, 100vw, 1400px);
+
+
    background-color: #1E0044;
    border-radius: 15px;
    display: flex;
    flex-direction: column;
    align-items: center;
+   transition-duration: 0.3s;
   box-shadow: 0 0 10px #1e0240, 0 0 14px #5405b4, 0 0 14px #7807f86e;
 }
 .main-header:hover{
     box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
-    transition-duration: 0.3s;
+
     transform: scale(1.01);
 }
 .fileira{

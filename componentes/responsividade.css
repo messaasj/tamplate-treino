@@ -1,0 +1,109 @@
+/* Estilos gerais (herdados do desktop) já estão no CSS principal */
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px)  {
+    
+   
+   
+     
+     .main-section{
+        flex-direction: column; /* Coloca as caixas em coluna */
+        align-items: center; /* Centraliza as caixas horizontalmente */
+        transform: scale(1.1);
+        
+     }
+     .box.-um{
+        margin-top: 30px;
+     }
+
+
+
+     .mediaq{
+   
+        justify-content: center;
+        background: linear-gradient(to bottom, #E9DEFF, #b3b3b388);
+        width: 90%;
+        border-radius: 0px 20px 20px 0px;
+
+     }
+     .section-image{
+        background-image: none;
+        margin-top: 90px;
+    
+
+     }
+     .caixa-elementos{
+   
+        justify-content: space-around;
+        margin-left: 40px;
+        margin-right: 40px;
+        gap: 10%;
+     }
+     .escrita{
+        margin-top: 30px;
+     }
+
+     .design-image{
+
+        margin-top: 100px; 
+        transform: scale(1.0); /* Aumenta a imagem em 50% */
+   
+    }
+
+  }
+
+
+  
+  /* Estilos para celulares */
+  @media (max-width: 768px) {
+    
+    .fileira{
+        display: flex;
+        justify-content: center; /* Ou outra distribuição desejada */
+        gap: 25px; /* Espaçamento fixo entre os links */
+     }
+     .main-section{
+        flex-direction: column; /* Coloca as caixas em coluna */
+        align-items: center; /* Centraliza as caixas horizontalmente */
+        
+     }
+     .box{
+        width: clamp(305px, 10vw, 300px); /* Mínimo de 150px, aumenta até 300px */
+        height: clamp(350px, 10vw, 300px); /* Mesma lógica da largura */
+     }
+     .wrapper{
+        flex-direction: column; /* Coloca os itens em coluna */
+        gap: 10px; /* Espaçamento de 16px entre os links */
+        margin-top: 20px;
+     }
+     .box:hover{
+        transform: none;
+        
+    }
+     .box.-um{
+        margin-top: 20px;
+     }
+     .mediaq{
+   
+        justify-content: center;
+        background: linear-gradient(to bottom, #5c1adf, #b3b3b388);
+        width: 90%;
+        border-radius: 0px 20px 20px 0px;
+
+     }
+     
+     .section-image{
+        background-image: none;
+        margin-top: 90px;
+        
+      
+   
+      
+
+     }
+     .design-image{
+
+        transform: scale(0.80);
+   
+    }
+  }

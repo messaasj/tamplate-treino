@@ -1,0 +1,55 @@
+.section3{
+    background: linear-gradient(to bottom, #E9DEFF, #beb5cfe5);
+    border-radius: 25px;
+    margin: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+ 
+}
+
+
+
+  
+
+.title{
+    border-top: 1px solid black;
+    border-image: linear-gradient(to right, rgb(182, 182, 182), black, rgb(182, 180, 180)) 1; 
+    margin-left: 75px;
+    margin-top: 75px;
+    font-size: 2em;
+    padding-top: 5px;
+    
+}
+.conteudo{
+
+margin: 50px;
+}
+.conteudo h3 {
+
+    border-top: 1px solid black;
+    border-image: linear-gradient(to right, rgb(182, 182, 182), black, rgb(182, 180, 180)) 1; 
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    color: black;
+}
+.title ::before{
+        font-size: 40px;
+        content: "•"; /* Adiciona a bolinha */
+        margin-right: 8px; /* Espaço entre a bolinha e o texto */
+
+}
+
+#border{
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    border-image: linear-gradient(to right, rgb(182, 182, 182), black, rgb(182, 180, 180)) 1; 
+}
+
+.teste {
+    background-color: rgb(253, 255, 127);
+    font-size: clamp(15px, 30px, 50px);
+  }

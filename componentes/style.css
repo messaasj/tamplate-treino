@@ -4,19 +4,28 @@ body, h1, h2, h3, h4, figure, input{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
-h1 ,p, h2{
+html{
+
+
+   
+    transition: all 0.6 ease; /* Transição suave para todas as propriedades em 0.3 segundos */
+}
+
+h1 ,p, h2,h3{
     font-family: "Albert Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: italic;
     font-weight: 100;
-    color: white;
+ 
 }
 body{
  background-color: black;
  height: 100vh; /* Ocupa a altura total da viewport */
- 
+ overflow-x: hidden; /* Impede o scroll lateral */
+
 
 }
 
