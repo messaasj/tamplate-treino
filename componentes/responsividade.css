@@ -62,6 +62,10 @@
         justify-content: center; /* Ou outra distribuição desejada */
         gap: 25px; /* Espaçamento fixo entre os links */
      }
+     .pai{
+        padding-left: 15px;
+        padding-right: 15px;
+     }
      .main-section{
         flex-direction: column; /* Coloca as caixas em coluna */
         align-items: center; /* Centraliza as caixas horizontalmente */
