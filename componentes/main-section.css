@@ -35,11 +35,9 @@
    
 }
 .buttom-section:hover{
-    border-color:  #eeececc5;
+   
     color: #eeececc5;
-    box-shadow: #eeececc5 0 0 4px ,#eeececc5 0 0 4px ;
-    transform: scale(1.05); /* Aumenta o tamanho em 5% */
-    font-weight: 700;
+    box-shadow: #eeececc5 0 0 3px ,#eeececc5 0 0 3px ;
     transition-duration: 0.3s;
 }
 .wrapper{

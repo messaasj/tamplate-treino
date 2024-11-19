@@ -5,7 +5,13 @@
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
- 
+    transition-duration: 0.2s;
+}
+.section3:hover{
+    box-shadow: 0 0 10px rgba(182, 182, 182, 0.63), 0 0 14px rgba(182, 182, 182, 0.555), 0 0 14px rgba(182, 182, 182, 0.575);
+    transform: scale(1.01);
+    
+    
 }
 
 
