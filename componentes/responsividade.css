@@ -227,6 +227,9 @@
             width: 80%;
             margin: auto; /*centraliza a caixa branca*/
         }
+        .title{
+            border-top: none;
+        }
         .footer-socials{
 
     justify-content: center;
