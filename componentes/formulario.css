@@ -1,0 +1,70 @@
+.formulario{
+ margin-top: 50px;
+ margin-bottom: 50px;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    display: flex;
+
+}
+.box-form{
+    background-image: url('../imagens/metal.jpg');
+    background-size: cover; /* Faz a imagem preencher o container */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede a repetição */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    border-radius: 20px; 
+
+    width: 70%;
+    height: 380px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: clamp(10px, 2.5vw, 50px);
+    line-height: clamp(40px, 2.5vw, 50px);
+ 
+}
+form h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-family: "Playfair Display", serif ;
+    background: linear-gradient(90deg, #5d27a8, #71149c); -webkit-background-clip: text; color: transparent;
+}
+.label{
+    color: #e0e0e0;
+    font-family: "Playfair Display", serif ;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid #71149c;
+    background-color: transparent;
+    color: #71149c;
+   outline: none;
+}
+::placeholder{
+    color: #71149c;
+    font-size: 0.8rem;
+}
+
+.folha-vidro{
+    width: 70%;
+    height: 80%;
+    border-radius: 20px; 
+    background: rgba(161, 161, 161, 0.089); /* Cor de fundo branca com 30% de opacidade */
+    backdrop-filter: blur(50px); /* Desfoque aplicado ao fundo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar o efeito */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
+}
+.label{
+
+   font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttão.-form{
+    border: none;
+    font-size: clamp(0.9rem, 2.5vw, 1rem);
+    margin-top: 30px;
+}

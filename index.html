@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="componentes/section-image.css">
 <link rel="stylesheet" href="componentes/section-image-2.css">
 <link rel="stylesheet" href="componentes/section3.css">
+<link rel="stylesheet" href="componentes/formulario.css">
 <link rel="stylesheet" href="componentes/footer.css">
 
 <link rel="stylesheet" href="componentes/responsividade.css">
@@ -142,6 +143,31 @@
 
 
 
+<section class="formulario">
+    <div class="box-form">
+        
+        <div class="folha-vidro">
+            
+                    <form action="/submit" method="POST">
+                        <h2>Formulário de Contato</h2>
+            
+                        <label class="label" for="email">E-mail:</label>
+                        <input class="input" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            
+                        <label class="label" for="telefone">Número de Telefone:</label>
+                        <input class="input" type="tel" id="telefone" name="telefone" placeholder="Digite seu número de telefone" required>
+            
+                        <button class="buttão -form" type="submit">Enviar</button>
+                      </form>
+            
+        </div>
+        
+    </div>
+</section>
+
+
+
+
         <footer class="footer">
             <div class="footer-container">
               <!-- Logo ou título -->
@@ -171,6 +197,10 @@
               </div>
             </div>
           </footer>
+
+      
+
+        
 </body>
 
 </html>
