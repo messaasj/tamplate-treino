@@ -183,6 +183,10 @@
 .caixa-elementos2{
     margin-left: 40px;
  }
+ .footer-socials{
+
+    justify-content: center;
+        }
 
 
   }
@@ -193,6 +197,7 @@
 
     .fileira{
         gap: 19px;
+       
     }
     
 
@@ -222,5 +227,8 @@
             width: 80%;
             margin: auto; /*centraliza a caixa branca*/
         }
-        
+        .footer-socials{
+
+    justify-content: center;
+        }
   }

@@ -55,7 +55,3 @@ margin: 50px;
     border-image: linear-gradient(to right, rgb(182, 182, 182), black, rgb(182, 180, 180)) 1; 
 }
 
-.teste {
-    background-color: rgb(253, 255, 127);
-    font-size: clamp(15px, 30px, 50px);
-  }

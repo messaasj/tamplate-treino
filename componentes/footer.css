@@ -1,0 +1,35 @@
+
+.footer{
+    background-color: rgb(67, 1, 87);
+    padding: 40px;
+    max-width: 1400px; /* Define o tamanho máximo para desktops */
+    transition-duration: 0.2s;
+}
+.titulo-footer h3{
+    font-family: "Playfair Display", serif ;
+    text-align: center;
+    font-size: clamp(2rem, 2vw, 4rem);
+    background: linear-gradient(90deg, #8338EC, #B923FF); -webkit-background-clip: text; color: transparent;
+    font-style: italic;
+}
+.footer-nav{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-family: "Quicksand", sans-serif;
+    color: aliceblue;
+}
+.footer-socials{
+    color: aliceblue;
+    margin: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.footer:hover{
+    box-shadow: 0 0 10px #8705c4c0, 0 0 14px #7d05b4af, 0 0 14px #7807f86e;
+    transform: scale(1.02);
+    transition-duration: 0.2s;
+}

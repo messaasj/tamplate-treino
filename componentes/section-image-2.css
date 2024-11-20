@@ -44,6 +44,7 @@
   
 }
 .buttão{
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
     text-decoration: none;
     color: rgb(224, 224, 224);
     padding: 10px 13px;
