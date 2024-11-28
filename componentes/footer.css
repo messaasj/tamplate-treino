@@ -2,7 +2,7 @@
 .footer{
     background-color: rgb(67, 1, 87);
     padding: 40px;
-    max-width: 1400px; /* Define o tamanho máximo para desktops */
+    max-width: clamp(88%, 100vw, 100%);
     transition-duration: 0.2s;
 }
 .titulo-footer h3{

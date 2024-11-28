@@ -5,10 +5,16 @@
     gap: 35px; /* Espaço entre as caixas */
     margin-top: 50px;
 }
+
+.box,
+.box-um {
+    max-width: clamp(88%, 100vw, 80%);
+    margin: auto;
+}
 .box{
     background: linear-gradient(to right, #8338EC, #9C2EF5);
     border-radius: 15px;
-    width: 550px;
+   
     height: 380px;
     padding: 40px;
     line-height: 30px;
