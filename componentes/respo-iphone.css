@@ -1,0 +1,44 @@
+/*iphoneeeeeeeeeeeee*/
+@media (max-width: 390px){
+    /*-----main-header----------------------------*/
+    
+        .fileira{
+            gap: 19px;
+           
+        }
+        
+    
+    /*-----section-image----------------------------*/
+    
+        .caixa-elementos{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    
+    
+        /*-----section-image2----------------------------*/
+    
+        .caixa-elementos2{
+            margin-left: 7px;
+        }
+        .cursiva.-t{
+           font-size: 5em;
+        }
+    
+    
+            /*-----section3----------------------------*/
+    
+    
+            .section3{
+    
+                width: 91%;
+                margin: auto; /*centraliza a caixa branca*/
+            }
+            .title{
+                border-top: none;
+            }
+            .footer-socials{
+    
+        justify-content: center;
+            }
+      }

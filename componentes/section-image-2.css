@@ -1,27 +1,28 @@
 .section-image-2{
-    background-image: url('../imagens/Container2.png');
-   
-    height: 500px; /* Ajuste a altura conforme necessário */
-    background-size: contain;
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background: linear-gradient(to bottom, #1E0044, #36017a);
+    height: 500px;
+    max-width: clamp(88%, 100vw, 50%);
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
+    border-radius: 20px;
+    
 }
 .caixa-elementos2{
-   
+   gap: 15%;
     display: flex;
-    justify-content: space-between; /* Espaça os itens uniformemente */
+    justify-content: space-around; /* Espaça os itens uniformemente */
     align-items: center; /* Centraliza verticalmente */
-    margin-left: 150px;
-    margin-right: 200px;
-   
+    margin-left: 50px;
+    margin-right: 100px;
+  
 }
 .design-image2{
     transform: scale(1.5); /* Aumenta a imagem em 50% */
    
 }
 .escrita-Roxa{
+    
     margin-top: 40px;
    display: flex;
    height: 400px;

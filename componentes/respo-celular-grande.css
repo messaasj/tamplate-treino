@@ -1,0 +1,111 @@
+
+  /* Estilos para celulares %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+  @media (max-width: 768px) {
+    
+    .fileira{
+        display: flex;
+        justify-content: center; /* Ou outra distribuição desejada */
+        gap: 25px; /* Espaçamento fixo entre os links */
+     }
+     .centro{
+        padding-left: 25px;
+        padding-right: 25px;
+     }
+     /*---------------------------------------------------------------------------*/
+     .main-section{
+        flex-direction: column; /* Coloca as caixas em coluna */
+        align-items: center; /* Centraliza as caixas horizontalmente */
+        
+     }
+     .box{
+        width: clamp(305px, 10vw, 300px); /* Mínimo de 150px, aumenta até 300px */
+        height: clamp(370px, 10vw, 300px); /* Mesma lógica da largura */
+     }
+     .wrapper{
+        flex-direction: column; /* Coloca os itens em coluna */
+        gap: 10px; /* Espaçamento de 16px entre os links */
+        margin-top: 20px;
+     }
+     .box:hover{
+        transform: none;
+        
+    }
+     .box.-um{
+        margin-top: 20px;
+     }
+     /*---------------------------------------------------------------------------*/
+     .mediaq{
+   
+        justify-content: center;
+        background: linear-gradient(to bottom, #E9DEFF, #f0e8e888);
+        width: 90%;
+        border-radius: 0px 20px 20px 0px;
+
+     }
+  
+     
+     .section-image{
+        background-image: none;
+        margin-top: 90px;
+     }
+     .design-image{
+
+        transform: scale(0.80);
+   
+    }
+    .escrita{
+        margin-top: 40px;
+     }
+     
+    /*---------------------------------------------------------------------------*/
+
+
+    .section-image-2{
+        justify-content: center;
+        background: linear-gradient(to bottom, #4801a3, #36017a);
+        width: 90%;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .caixa-elementos2{
+
+    
+       gap: 5px;
+    }
+    /*---------------------------------------------------------------------------*/
+    .section3{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .title{
+        margin-left: 45px;
+    }
+
+    
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 700px) {
+
+    .design-image{
+        display: none;
+    }
+    .caixa-elementos2{
+        margin-left: 40px;
+     }
+     .footer-socials{
+    
+        justify-content: center;
+            }
+    
+    
+      }
+

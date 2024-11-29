@@ -1,12 +1,11 @@
 .section-image{
-    width: 100%;
-    height: 500px; /* Ajuste a altura conforme necessário */
-    background-image: url('../imagens/Container\ \(1\).png'); /* Caminho para a imagem */
-    background-size: contain;
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background: linear-gradient(to bottom, #E9DEFF, #f0e8e888);
+    height: 500px;
+    max-width: clamp(88%, 100vw, 50%);
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 100px;
+    border-radius: 20px;
     
    
 }
